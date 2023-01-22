@@ -1,0 +1,65 @@
+:root{
+    --primary-text-color:#434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --portfolio-button-bg-color:#F4F4FD;
+    --portfolio-button-bg-accent-color:#404BBF;
+    --main-bg-color:#ffffff;
+}
+
+/*#FFFFFF*/
+
+body{
+    background-color:var(--main-bg-color);
+    color: var(--primary-text-color);
+}
+
+.list{
+    list-style: none;
+}
+
+.logo-first-part{
+    color: var(--accent-color);
+}
+
+.link{
+    color:var(--title-text-color)
+}
+
+.address-nav .link:hover,
+.site-nav .link:hover,
+.logo:hover,
+.button:hover{
+    color: var(--accent-color);
+}
+.address-nav .link:focus,
+.site-nav .link:focus,
+.logo:focus,
+.button:focus{
+    color: var(--accent-color);
+}
+
+.button{
+    background-color: var(--accent-color);
+    color: var(--main-bg-color);
+}
+
+.hero-title{
+    color: var(--main-bg-color);
+    background-color: #434455; /*Фон временный, чтобы видеть главный заголовок*/
+}
+
+.selection{
+    color: var(--title-text-color);
+}
+
+.button-portfolio{
+    background-color: var(--portfolio-button-bg-color);
+    color: var(--accent-color);
+}
+.button-portfolio:hover,
+.button-portfolio:focus{
+    background-color: var(--portfolio-button-bg-accent-color);
+    color: var(--main-bg-color);
+}
+
