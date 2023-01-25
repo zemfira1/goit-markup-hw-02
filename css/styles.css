@@ -46,10 +46,12 @@ body{
     color:var(--title-text-color)
 }
 
-.link:hover,
+.header-site-navigation-link:hover,
+.header-address-navigation-link:hover,
 .logo:hover,
 .button:hover,
-.link:focus,
+.header-site-navigation-link:focus,
+.header-address-navigation-link:focus,
 .logo:focus,
 .button:focus{
     color: var(--accent-color);
@@ -122,7 +124,6 @@ body{
 
 .examples-title,
 .team-title{
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
