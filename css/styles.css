@@ -5,6 +5,7 @@
     --portfolio-button-bg-color:#F4F4FD;
     --portfolio-button-bg-accent-color:#404BBF;
     --main-bg-color:#ffffff;
+    --footer-text: #E7E9FC
 }
 
 body{
@@ -132,6 +133,9 @@ body{
     background-color: var(--portfolio-button-bg-color);
 }
 
+.footer-text{
+    color: var(--footer-text);
+}
 
 .hidden {
     position: absolute;
