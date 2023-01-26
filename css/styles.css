@@ -59,7 +59,7 @@ body{
 
 .button{
     background-color: var(--accent-color);
-    color: var(--white-color);
+    color: var(--main-bg-color);
     font-family: inherit;
     font-weight: 500;
     align-items: center;
@@ -109,7 +109,6 @@ body{
 }
 .hero-title{
     color: var(--main-bg-color);
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
